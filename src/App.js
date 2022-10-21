@@ -1,12 +1,11 @@
 import './App.css';
-import Component from './Component';
-import Class from './Class';
+import SearchBar from './composants/SearchBar.js';
+
 
 function App() {
   return (
     <div className="App">
-      <Component nom="Iandri" age="11"/>
-      <Class/>
+      <SearchBar/>
     </div>
   );
 }
